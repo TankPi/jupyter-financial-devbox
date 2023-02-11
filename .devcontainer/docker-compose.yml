@@ -1,0 +1,13 @@
+version: '3'
+services:
+  scipy-notebook:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args: 
+        VARIANT: scipy-notebook
+    image: blabla
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../:/home/jovyan/work:cached
