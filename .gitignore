@@ -1,0 +1,30 @@
+# Jupyter Notebook
+*.ipynb_checkpoints/
+*.ipynb
+
+# Log files
+logs/
+*.log
+
+# Jupyter runtime files
+.jupyter/
+
+# cache files
+__pycache__/
+*.pyc
+
+# pyenv
+.python-version
+
+# virtualenv
+.env
+.venv/
+
+# Other Python files
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore src content
+src/*
